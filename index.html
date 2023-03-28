@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <title>IMDb</title>
+    <link rel="shortcut icon" href="logo.webp" type="image/x-icon">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <!-- Wrapper -->
+    <div class="wrapper">
+        <div class="logo">
+            <div class="container nav-flex">
+                <a href="index.html" id="logo">IMD<span>b</span></a>
+                <!-- <a href="result/resultPage.html" id="lastSearch">Last Search</a> -->
+                <a href="favourite/favourite.html" id="fav">Favourites</a>
+            </div>
+        </div>
+        <!-- end of logo -->
+
+        <!-- Search container -->
+        <div class="search-container">
+            <div class="search-element">
+                <h1>Search Movie : </h1>
+                <input type="text" class="form-control" placeholder="Search Movie Title" id="movie-search-box" onkeyup="findMovies()" onclick = "findMovies()">
+
+                <div class="search-list" id="search-list">
+                    <!-- list here -->
+                    <!-- <div class="search-list-item">
+                        <div class="search-item-thumbnail">
+                            <img src="medium-cover.jpg" alt="movie">
+                        </div>
+                        <div class="search-item-info">
+                            <h3>Guardians of the Galaxy vol. 2</h3>
+                            <p>2017</p>
+                        </div>
+                    </div> -->
+
+                </div>
+            </div>
+        </div>
+        <!-- end of Search container -->
+        
+    </div>
+
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/8fcf9c8220.js" crossorigin="anonymous"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+
+
+</body>
+</html>
