@@ -2,7 +2,7 @@
 
 
 A Mini IMDb clone built using simple HTML, CSS, Vanilla JS and OMDb API for searching the movies.
-
+--------------------------------
 Check out the
 
 => Website: https://akshityadav370.github.io/imdb-mini-clone/index.html
