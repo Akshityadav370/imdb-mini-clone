@@ -8,7 +8,7 @@ Check out the
 
 => Website: https://akshityadav370.github.io/imdb-mini-clone/index.html
 
-=> Explanation: 
+=> Explanation: https://www.youtube.com/watch?v=OhsRZg2m8T8
 
 *************
 
